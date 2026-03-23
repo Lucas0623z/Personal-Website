@@ -1,0 +1,10 @@
+/* Import design tokens and fonts first */
+@import './fonts.css';
+@import './tokens.css';
+@import './globals.css';
+
+/* Ensure root element fills viewport */
+#root {
+  min-height: 100vh;
+  width: 100%;
+}

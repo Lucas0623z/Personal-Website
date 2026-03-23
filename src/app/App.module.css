@@ -1,0 +1,8 @@
+/* App Component Styles */
+
+.app {
+  min-height: 100vh;
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  transition: background-color var(--transition-base), color var(--transition-base);
+}

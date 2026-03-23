@@ -1,0 +1,49 @@
+/**
+ * Font Configuration
+ * Primary: PingFang SC (all platforms)
+ * Monospace: JetBrains Mono
+ */
+
+/* Import fonts from Google Fonts with higher priority */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* PingFang SC - Web Font with multiple CDN sources */
+@font-face {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('PingFang SC'),
+       local('PingFang SC Regular'),
+       local('PingFangSC-Regular'),
+       local('PingFangSC'),
+       url('https://cdn.jsdelivr.net/gh/Shopify/font-cdn/fonts/pingfang_sc/pingfang_sc_n4.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/Shopify/font-cdn/fonts/pingfang_sc/pingfang_sc_n4.woff') format('woff');
+  unicode-range: U+4E00-9FFF, U+3000-303F, U+FF00-FFEF;
+}
+
+@font-face {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('PingFang SC Medium'),
+       local('PingFangSC-Medium'),
+       local('PingFang SC'),
+       url('https://cdn.jsdelivr.net/gh/Shopify/font-cdn/fonts/pingfang_sc/pingfang_sc_n5.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/Shopify/font-cdn/fonts/pingfang_sc/pingfang_sc_n5.woff') format('woff');
+  unicode-range: U+4E00-9FFF, U+3000-303F, U+FF00-FFEF;
+}
+
+@font-face {
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('PingFang SC Semibold'),
+       local('PingFangSC-Semibold'),
+       local('PingFang SC'),
+       url('https://cdn.jsdelivr.net/gh/Shopify/font-cdn/fonts/pingfang_sc/pingfang_sc_n6.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/Shopify/font-cdn/fonts/pingfang_sc/pingfang_sc_n6.woff') format('woff');
+  unicode-range: U+4E00-9FFF, U+3000-303F, U+FF00-FFEF;
+}
